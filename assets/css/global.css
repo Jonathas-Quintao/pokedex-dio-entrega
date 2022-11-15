@@ -1,0 +1,40 @@
+* {
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: #f6f8fc;
+}
+
+.content {
+    width: 100vw;
+    height: 100vh;
+    padding: 1rem;
+    background-color: #fff;
+}
+
+.buttons{
+    position:absolute;
+    flex-direction: row;
+    margin: 0 20px;
+    width: 65%;
+    display: flex;
+    gap:20px
+}
+.button{
+    width: 50%;
+    border: none;
+    border-radius: 5px;
+    background-color: #6c79db;
+    color:#fff;
+}
+
+@media screen and (min-width: 992px) {
+    .content {
+        max-width: 992px;
+        height: auto;
+        margin: 1rem auto;
+        border-radius: 1rem;
+    }
+}
